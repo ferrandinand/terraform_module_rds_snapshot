@@ -1,0 +1,28 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "cloudwatch:*",
+          "events:*",
+          "iam:ListAttachedRolePolicies",
+          "iam:ListRolePolicies",
+          "iam:ListRoles",
+          "iam:PassRole",
+          "iam:ListInstanceProfiles",
+          "ec2:*",
+          "lambda:*",
+          "logs:*",
+          "sns:ListSubscriptionsByTopic",
+          "sns:ListTopics",
+          "sns:Subscribe",
+          "sns:Unsubscribe",
+          "sns:Publish",
+          "s3:*",
+          "rds:*"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
